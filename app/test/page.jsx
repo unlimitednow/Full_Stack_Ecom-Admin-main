@@ -4,10 +4,10 @@ import Head from "next/head";
 import { SignedIn, currentUser, SignedOut, SignOutButton, useAuth } from "@clerk/nextjs";
 import { useEffect, useState } from "react";
 
-import { RouterOutputs, trpc } from "../utils/trpc";
-import { AddTodo } from "../components/AddTodo/AddTodo";
-import { TodoItem } from "../components/TodoItem/TodoItem";
-import { Card } from "../components/Card/Card";
+import { RouterOutputs, trpc } from "../../utils/trpc";
+import { AddTodo } from "../../components/AddTodo/AddTodo";
+import { TodoItem } from "../../components/TodoItem/TodoItem";
+import { Card } from "../../components/Card/Card";
 
 const authorizationKey = process.env.NOW_PUBLIC_API_KEY || '22-22-22';
 const UserId = process.env.NOW_PUBLIC_USER_ID || 'user_2T5QudbjVsxW52psCu8v2aoZ0Uc';
