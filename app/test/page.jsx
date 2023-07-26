@@ -95,7 +95,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <SignedIn>
         <Card>
           <header>
             <h1>Todos</h1>
@@ -122,7 +121,6 @@ export default function Home() {
             <SignOutButton />
           </footer>
         </Card>
-      </SignedIn>
      
     </>
   );
