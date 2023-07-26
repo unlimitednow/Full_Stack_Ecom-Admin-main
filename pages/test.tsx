@@ -1,6 +1,6 @@
 import type { InferGetServerSidePropsType } from 'next'
 import Image from 'next/image'
-import { getXataClient } from '../../utils/xata'
+import { getXataClient } from '../utils/xata'
 
 const pushDummyData = async () => {
   const response = await fetch('/api/write-links-to-xata')
